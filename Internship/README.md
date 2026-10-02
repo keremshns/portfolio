@@ -5,9 +5,9 @@ Core firmware that configures a Texas Instruments **ADS1148** 16-bit delta-sigma
 converts the raw two's-complement samples into the measured supply voltage, streamed over UART.
 
 Developed during my summer internship at **Pavotek A.Ş.** (Jul–Sep 2019) for a precision analog
-measurement board. Only the core source file (`src/main.c`) is shared here. The rest of the project
+measurement board. Only the core source file (`main.c`) is shared here. The rest of the project
 (board configuration, HAL setup, headers) belongs to the company and is not public.
-Project poster: [docs/poster.pdf](docs/poster.pdf).
+Project poster: [internship-ads1148-poster.pdf](internship-ads1148-poster.pdf).
 
 ## What it does
 
@@ -27,7 +27,7 @@ analog input (0–10 V) ──► INA159 / op-amp front end ──► ADS1148 (�
   −5 × input + 1 V (+ offset)     → power-supply input voltage
   ```
 
-## Where to look in `src/main.c`
+## Where to look in `main.c`
 
 | Function | Role |
 |---|---|

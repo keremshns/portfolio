@@ -11,15 +11,15 @@ Python, TensorFlow, and cloud technologies, with a passion for driving meaningfu
 |---|---|---|
 | **Deep convolutional autoencoder for predictive maintenance**: fault classification from multi-channel bearing-vibration signals, 99.2% accuracy using only 5% of the data for training and 10× faster training than the NSAE-LCN baseline; co-developed from literature review to benchmarking | IEEE SIU 2022 paper · 1st Prize, VERİM Award · industry-supported graduation project (Çözüm Makina) | [Paper (DOI)](https://doi.org/10.1109/SIU55565.2022.9864836) |
 | **Ultrasonic locator for people trapped under debris**: wearable 20 kHz beacon and directional receiver | Patent application (2013–2014), co-inventor and applicant; passed formal examination | — |
-| **Microbolometer infrared camera module**: selected components for, designed (Altium), built and tested the power-board PCB, and generated the camera's synchronising clock signals on an FPGA programmed in Python, for an uncooled IR camera | Research project (SUMER, Sabancı Univ., 2018) | [Poster](posters/sumer-ir-camera-poster.pdf) |
-| **ADS1148 16-bit ADC firmware for STM32**: bare-metal SPI driver with interrupt-driven sampling, precision voltage measurement | Industrial internship (Pavotek, 2019) | [Code](ads1148-stm32-firmware) · [Poster](ads1148-stm32-firmware/docs/poster.pdf) |
+| **Microbolometer infrared camera module**: selected components for, designed (Altium), built and tested the power-board PCB, and generated the camera's synchronising clock signals on an FPGA programmed in Python, for an uncooled IR camera | Research project (SUMER, Sabancı Univ., 2018) | [Poster](SUMER%20Research/sumer-ir-camera-poster.pdf) |
+| **ADS1148 16-bit ADC firmware for STM32**: bare-metal SPI driver with interrupt-driven sampling, precision voltage measurement | Industrial internship (Pavotek, 2019) | [Code](Internship/main.c) · [Poster](Internship/internship-ads1148-poster.pdf) |
 
 ### Predictive maintenance: accuracy vs. training-data size
 
 Our single- and multi-channel networks stay above 97% accuracy with only 5% of the CWRU data used for
 training, while a reimplemented LeNet-5 CNN and NSAE-LCN need far more data and plateau lower.
 
-![Classification accuracy vs. training size on CWRU](figures/siu-accuracy-vs-train-size.png)
+![Classification accuracy vs. training size on CWRU](IEEE%20SIU/siu-accuracy-vs-train-size.png)
 
 ## Skills
 
