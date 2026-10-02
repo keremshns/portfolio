@@ -3,12 +3,12 @@
 Jan 2024 – Jan 2025. Industry work, so the code is proprietary and not shared here.
 
 > [!IMPORTANT]
-> **Platform:** the content moderation system was built for **[ganax.io](https://ganax.io)**.
+> **Platform:** the content moderation system was built for **ganax.io**.
 >
 > **See how it works:** [How the approval pipeline works](#how-the-approval-pipeline-works) is a diagram of how
 > video, audio and text posts are checked and approved or rejected.
 
-## Content moderation for a social media platform ([ganax.io](https://ganax.io))
+## Content moderation for a social media platform (ganax.io)
 
 - **LLM-based video approval/rejection.** Samples video frames and transcribes the audio, then uses an LLM to
   detect terms-and-conditions violations before content goes live.
@@ -21,7 +21,7 @@ Jan 2024 – Jan 2025. Industry work, so the code is proprietary and not shared 
 ### How the approval pipeline works
 
 > [!NOTE]
-> Concept-level view of the system built for [ganax.io](https://ganax.io). Implementation details are left out.
+> Concept-level view of the system built for ganax.io. Implementation details are left out.
 
 Video, audio and text all go through the same pipeline. Video is split into frames and audio is transcribed;
 text from the post goes straight into the checks.
