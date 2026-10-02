@@ -1,8 +1,14 @@
-# AI/ML Engineer: CanopyLAB / Ganax.com / Pavoreal.AI
+# AI/ML Engineer: CanopyLAB / Ganax.io / Pavoreal.AI
 
 Jan 2024 – Jan 2025. Industry work, so the code is proprietary and not shared here.
 
-## Content moderation for a social media platform ([ganax.com](https://ganax.com))
+> [!IMPORTANT]
+> **Platform:** the content moderation system was built for **[ganax.io](https://ganax.io)**.
+>
+> **See how it works:** [How the approval pipeline works](#how-the-approval-pipeline-works) is a diagram of how
+> video, audio and text posts are checked and approved or rejected.
+
+## Content moderation for a social media platform ([ganax.io](https://ganax.io))
 
 - **LLM-based video approval/rejection.** Samples video frames and transcribes the audio, then uses an LLM to
   detect terms-and-conditions violations before content goes live.
@@ -13,6 +19,9 @@ Jan 2024 – Jan 2025. Industry work, so the code is proprietary and not shared 
   content approval/rejection pipeline.
 
 ### How the approval pipeline works
+
+> [!NOTE]
+> Concept-level view of the system built for [ganax.io](https://ganax.io). Implementation details are left out.
 
 Video, audio and text all go through the same pipeline. Video is split into frames and audio is transcribed;
 text from the post goes straight into the checks.
@@ -51,7 +60,7 @@ flowchart TD
 
 ## Conversational and agentic systems
 
-- **Recommendation and support chatbot (ganax.com).** LLM chatbot built on an agent framework, with tools for
+- **Recommendation and support chatbot (ganax.io).** LLM chatbot built on an agent framework, with tools for
   personalised recommendations, Q&A and FAQs.
 - **Automated qualitative feedback (CanopyLAB).** LLM chatbot built on an agent framework that processes
   qualitative feedback on an e-learning platform. Developed and deployed.
